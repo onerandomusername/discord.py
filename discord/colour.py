@@ -173,11 +173,11 @@ class Colour:
 
     @classmethod
     def brand_green(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0x57F287``.
+        """A factory method that returns a :class:`Colour` with a value of ``0x57f287``.
 
         .. versionadded:: 2.0
         """
-        return cls(0x57F287)
+        return cls(0x57f287)
 
     @classmethod
     def green(cls: Type[CT]) -> CT:
@@ -241,11 +241,11 @@ class Colour:
 
     @classmethod
     def brand_red(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0xED4245``.
+        """A factory method that returns a :class:`Colour` with a value of ``0xed4245``.
 
         .. versionadded:: 2.0
         """
-        return cls(0xED4245)
+        return cls(0xed4245)
 
     @classmethod
     def red(cls: Type[CT]) -> CT:
@@ -292,8 +292,8 @@ class Colour:
 
     @classmethod
     def blurple(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0x5865F2``."""
-        return cls(0x5865F2)
+        """A factory method that returns a :class:`Colour` with a value of ``0x5865f2``."""
+        return cls(0x5865f2)
 
     @classmethod
     def greyple(cls: Type[CT]) -> CT:
@@ -302,28 +302,28 @@ class Colour:
 
     @classmethod
     def dark_theme(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0x36393F``.
+        """A factory method that returns a :class:`Colour` with a value of ``0x36393f``.
         This will appear transparent on Discord's dark theme.
 
         .. versionadded:: 1.5
         """
-        return cls(0x36393F)
+        return cls(0x36393f)
 
     @classmethod
     def fuchsia(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0xEB459E``.
+        """A factory method that returns a :class:`Colour` with a value of ``0xeb459e``.
 
         .. versionadded:: 2.0
         """
-        return cls(0xEB459E)
+        return cls(0xeb459e)
 
     @classmethod
     def yellow(cls: Type[CT]) -> CT:
-        """A factory method that returns a :class:`Colour` with a value of ``0xFEE75C``.
+        """A factory method that returns a :class:`Colour` with a value of ``0xfee75c``.
 
         .. versionadded:: 2.0
         """
-        return cls(0xFEE75C)
+        return cls(0xfee75c)
 
 
 Color = Colour
